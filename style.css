@@ -1,0 +1,133 @@
+.img {
+    width: 300px;
+    border-radius: 12px;
+    height: 300px;
+}
+
+.demo {
+    margin: 10px;
+    width: 300px;
+    /* border: 1px solid lightgray; */
+    padding: 6px;
+    border-radius: 12px;
+}
+
+.profile {
+    border-radius: 100px;
+    width: 80px;
+}
+
+.h4 {
+    display: flex;
+}
+
+.card-header {
+    position: relative;
+}
+
+.signupbtn {
+    background-color: black;
+    border-radius: 40px;
+    color: white;
+    font-size: 16px;
+    padding: 12px 32px;
+    position: fixed;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+}
+
+.middle-section {
+    width: 25%;
+    border: 1px solid #dca9b8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.week {
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.search {
+    font-size: 15px;
+    color: white;
+    background-color: red;
+    border-radius: 50% solid black;
+    border-color: black;
+}
+
+.right-section {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.acc {
+    border: 1px solid #dddddd;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.navbar {
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    ;
+}
+
+.logo {}
+
+.category{
+    display: flex;
+    padding-left: 80px;
+            padding-right: 80px;
+            justify-content: space-between;
+            margin-top: 20px;
+}
+
+.imgicons{
+    height: 24px;
+            width: 24px;
+           
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+img+#star~p {
+    margin-top: -10px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+
+
+.picons{
+
+}
+
+.categorydiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot{
+    position: absolute;
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            align-items: center;
+}
