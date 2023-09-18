@@ -2,6 +2,7 @@
     width: 300px;
     border-radius: 12px;
     height: 300px;
+    transition: 1s;
 }
 
 .demo {
@@ -42,8 +43,10 @@
 
 .middle-section {
     width: 25%;
-    border: 1px solid #dca9b8;
-    display: flex;
+    height: 10%;
+    border: 1px solid grey;
+    display: inline-flex;
+    box-shadow: 3px 3px lightgrey;
     justify-content: space-around;
     align-items: center;
     border-radius: 40px;
@@ -69,6 +72,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
+}
+
+.p{
+    background-color: lightgrey;
+    border-radius: 35px;
+    width: 80%;
+    height: 60%;
+    padding: 7px 15px;
+    justify-content: center;
 }
 
 .acc {
@@ -85,6 +98,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+   position: static;
     ;
 }
 
@@ -96,6 +110,7 @@
             padding-right: 80px;
             justify-content: space-between;
             margin-top: 20px;
+            
 }
 
 .imgicons{
@@ -130,4 +145,10 @@ img+#star~p {
             justify-content: space-between;
             gap: 10px;
             align-items: center;
+}
+
+
+hr {
+    color: black;
+    
 }
