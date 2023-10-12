@@ -6,9 +6,9 @@
 }
 
 .demo {
-    margin: 10px;
+    margin: 10px ;
     width: 300px;
-    /* border: 1px solid lightgray; */
+    border: 1px solid lightgray;
     padding: 6px;
     border-radius: 12px;
 }
